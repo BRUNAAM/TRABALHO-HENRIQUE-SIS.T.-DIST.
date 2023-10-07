@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO DE PRODUTOS</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="java.js">
+</head>
+
+<body>
+    <div id="cadProduto">
+        <table>
+            <input type="text" id="produto" placeholder="ID">
+            <input type="text" id="codBarras" placeholder="CODIGO DE BARRAS"><br><br>
+            <input type="text" id="produto" placeholder="PRODUTO">
+            <input type="text" id="marca" placeholder="MARCA"><br><br>
+            <input type="text" id="modelo" placeholder="MODELO">
+            <input type="text" id="valor" placeholder="VALOR"><br><br>
+            <button onclick="cadProduto">CADASTRAR</button><br><br>
+        </table>
+        <div id="resposta"></div>
+        <div id="listarProdutos"></div>
+
+        <div id="tabela">
+            <table>
+                <thead>
+                    ID
+                    CODIGO DE BARRAS
+                    PRODUTO
+                    MARCA
+                    MODELO
+                    VALOR
+                    EDITAR
+                    EXCLUIR
+                </thead>
+                <tbody id="resultadoTabela"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+
+</html>
